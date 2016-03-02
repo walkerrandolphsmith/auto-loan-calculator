@@ -12,6 +12,7 @@
   "devDependencies": {
     "babel-cli": "^6.6.0",
     "babel-core": "^6.6.0",
+    "babel-plugin-rewire": "^1.0.0-beta-5",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "expect": "^1.14.0",
@@ -23,6 +24,9 @@
         "presets": [
           "stage-0",
           "es2015"
+        ],
+        "plugins": [
+          "rewire"
         ]
       }
     }
