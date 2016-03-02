@@ -48,5 +48,16 @@ describe('Calculator', () => {
     });
   });
 
+  describe('Given a loan amount, interest rate, number of payments, when calculating a monthly payment', () => {
+    let r, n, p;
+    beforeEach(() => {
+      r = 0.0015; n = 60; p = 25000;
+    });
+
+    it('should return an number', () => {
+      expect(calculate(r, n, p)).toEqual(436.01);
+    });
+  });
+
 });
 
