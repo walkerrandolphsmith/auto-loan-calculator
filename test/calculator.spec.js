@@ -55,7 +55,7 @@ describe('Calculator', () => {
     });
 
     it('should return an number', () => {
-      expect(calculate(r, n, p)).toEqual(436.01);
+      expect(calculate(r, n, p)).toEqual(436.0100899971937);
     });
   });
 
