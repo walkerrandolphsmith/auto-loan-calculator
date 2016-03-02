@@ -1,4 +1,4 @@
-export const calculate = (r, n, p, err) => {
+export const calculate = (r, n, p) => {
   if(!r || !n || !p) {
     return -1;
   }else {
